@@ -1,0 +1,21 @@
+.taskItem
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:50px;
+    width:500px;
+    background-color:#f95959;
+    margin: 0 auto;
+    margin-top:  40px; 
+}
+.line
+{text-decoration: line-through;}
+.taskItem:nth-child(2n)
+{
+   background-color: chartreuse;
+}
+.taskItem:nth-child(2n+1)
+{
+    background-color: crimson;
+}

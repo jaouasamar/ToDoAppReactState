@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gwendolyn&family=Roboto:wght@100&family=Work+Sans:ital,wght@0,176;0,284;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gwendolyn&family=Roboto:wght@100&family=Shadows+Into+Light&family=Work+Sans:ital,wght@0,176;0,284;1,200&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.App
+{
+   margin: 0 auto;
+    width:500px;
+    min-height: 800px;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 30px;
+
+font-weight: bold;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,22,0.711922268907563) 35%, rgba(0,212,255,1) 100%);
+}
+.title
+{
+    text-align: center;
+    animation: clignote 2s linear infinite;
+    color: lime;
+    font-family: 'Shadows Into Light', cursive;
+}
+@keyframes clignote {  
+    50% { opacity: 0; }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
